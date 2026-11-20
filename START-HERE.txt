@@ -1,0 +1,31 @@
+ARISE 2.0 — PHONE + MACBOOK
+===========================
+
+IMPORTANT: This is a Progressive Web App (PWA). To install it on both devices,
+publish this folder to a free HTTPS static host such as GitHub Pages.
+
+1. Create/sign in to GitHub.
+2. Create a public repository named arise-life-os.
+3. Upload index.html, manifest.webmanifest, and sw.js to the repository root.
+4. In repository Settings > Pages, deploy from the main branch / root.
+5. Open the generated HTTPS Pages URL on your Android phone and MacBook.
+6. Android Chrome: menu > Install app / Add to Home screen.
+7. Mac Safari: File > Add to Dock (or Chrome menu > Install ARISE).
+
+FEATURES INCLUDED
+- Responsive mobile and desktop layout with bottom navigation on phones.
+- Dashboard, habits, missions/goals, life journal, trading journal, money tracker.
+- Body metrics: height, weight, sleep, water, waist, steps, heart rate.
+- Quick activity logging plus GPS walk/run tracking while page is open.
+- Local browser storage and JSON backup/restore.
+
+IMPORTANT LIMITS
+- The app does not automatically detect every activity. GPS tracking needs location permission
+  and the page kept open; quick logs are manual.
+- Steps, heart rate, sleep, and other health data need Health Connect / Apple Health integration
+  or a compatible device/app export. This standalone PWA does not have that integration.
+- Height changes must be measured and entered; no device can continuously detect height growth.
+- Browser local data is separate on each device. Export/import moves data between devices.
+  Automatic sync requires a secure cloud backend/account and is not included in this local-first build.
+- No app can reliably track calls/talking or all movement without OS-level permissions and native integrations.
+- This is a personal tracker, not medical advice or trading advice.
